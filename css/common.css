@@ -34,6 +34,16 @@ box-shadow: 0 3px 3px 0 rgb(0 0 0 / 20%);
   padding: 0 24px;
 }
 
+.nav_link{
+  display: inline-block;
+  padding: 20px 0;
+  color: #333;
+}
+
+.nav_link:hover{
+  color: #75a9ff;
+}
+
 .top{
   display: flex;
   align-items: center;
@@ -67,8 +77,8 @@ box-shadow: 0 3px 3px 0 rgb(0 0 0 / 20%);
 }
 
 .inner {
-  max-width: 1000px;
-  margin: 0 auto;
+ width: 1000px;
+ margin: 0 auto;
   padding: 0 40px;
 }
 
@@ -107,9 +117,10 @@ box-shadow: 0 3px 3px 0 rgb(0 0 0 / 20%);
   box-shadow: 0 0 50px 0 #d9d9d9;
 }
 
-.skill_inner{
-  background-image:url(../img/Exclude.png);
-  background-size: cover;
+.skill{
+  background-image: url(../img/Exclude.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
 }
 
 .skill_item {
@@ -117,7 +128,7 @@ box-shadow: 0 3px 3px 0 rgb(0 0 0 / 20%);
   margin-bottom: 50px;
 }
 .skill_img{
-  margin-bottom: 20px;
+  margin-right: 20px;
 }
 .skill_img img{
   width: 60px;
@@ -138,7 +149,8 @@ box-shadow: 0 3px 3px 0 rgb(0 0 0 / 20%);
 }
 
 .work_item a img{
-  width: 100%;
+  width: 60%;
+  margin-left: 200px;
 }
 
 .work_body p{
